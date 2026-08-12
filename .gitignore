@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/data/
+backend/.env
+
+# Node / Next
+node_modules/
+.next/
+out/
+frontend/.env.local
+frontend/.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Archives / references
+design-references/
