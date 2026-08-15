@@ -728,7 +728,7 @@ function drawLLM(llmT, genT, ansT, C, cx, cy, R) {
   ctx.fillText('LLM', nodeX, nodeY + 4*DPR);
   ctx.fillStyle = C.muted;
   ctx.font = `500 ${8*DPR}px Inter`;
-  ctx.fillText('Llama 3.3 · 70B', nodeX, nodeY + rr + 16*DPR);
+  ctx.fillText('GPT OSS · 120B', nodeX, nodeY + rr + 16*DPR);
 
   if (llmT > .3 && genT < .9) {
     const flowT = clamp((llmT - .3) / .5, 0, 1);
