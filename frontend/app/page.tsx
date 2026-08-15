@@ -188,7 +188,7 @@ export default function LandingPage() {
           </div>
           <div className="panel side-r" data-i="7">
             <span className="pnum">08 · Generation</span>
-            <h4>Llama 3.3 writes the answer</h4>
+            <h4>GPT OSS 120B writes the answer</h4>
             <p>
               The LLM receives your question plus only those five retrieved
               chunks. It cannot invent from outside them.
@@ -385,9 +385,9 @@ export default function LandingPage() {
       </div>
 
       <footer>
-        <span>Built by Daniyal</span>
+        <span>Built by Mian Daniyal Hassan</span>
         <span>·</span>
-        <a href="#">GitHub</a>
+        <a href="https://github.com/MianDaniyalHassan" target="_blank" rel="noopener noreferrer">GitHub</a>
         <span>·</span>
         <span className="stack">
           Powered by <i className="dot b"></i>LangChain{" "}
